@@ -1,0 +1,87 @@
+#######################################
+# Syntax Coloring Map For Cinterion Connect Shield
+####################################### 
+# Class
+#######################################
+LTEConnectShieldModem	KEYWORD1
+LTEConnectShieldSMS	KEYWORD1
+LTEConnectShieldUrcListener	KEYWORD1
+LTEConnectShieldTracer	KEYWORD1
+LTEConnectShieldInterface	KEYWORD1
+LTECinterionConnectShield	KEYWORD1
+LTEConnectShieldHwSerial	KEYWORD1
+LTEConnectShieldHwSerial0	KEYWORD1
+LTEConnectShieldHwSerial1	KEYWORD1
+LTEConnectShieldHwSerial2	KEYWORD1
+LTEConnectShieldHwSerial3	KEYWORD1
+
+HwSerial	KEYWORD1
+HwSerial1	KEYWORD1
+HwSerial2	KEYWORD1
+HwSerial3	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################
+begin	KEYWORD2
+sendATcommand	KEYWORD2
+sendATcommandWithConf	KEYWORD2
+sendATcommandVerifyRes	KEYWORD2
+getATcommandReposne	KEYWORD2
+getATcommandReposneVerify	KEYWORD2
+sendData	KEYWORD2
+dataAvailable	KEYWORD2
+getData	KEYWORD2
+read	KEYWORD2
+flush	KEYWORD2
+processUrc	KEYWORD2
+registerUrcEventListener	KEYWORD2
+unRegisterUrcEventListener	KEYWORD2
+
+getName	KEYWORD2
+getVersion	KEYWORD2
+getLibVersion	KEYWORD2
+getRegistrationState	KEYWORD2
+registerToNetwork	KEYWORD2
+getSimPinState	KEYWORD2
+setSimPin	KEYWORD2
+
+#######################################
+# Constants
+#######################################
+CON_SHIELD_ON_OFF_PIN	LITERAL1
+CON_SHIELD_PWR_IND_PIN	LITERAL1
+
+MAX_AT_COMMAND_BUFFER_SIZE	LITERAL1
+MAX_AT_URC_BUFFER_SIZE	LITERAL1
+DEFAULT_AT_COMMAND_DELAY	LITERAL1
+DEFAULT_AT_COMMAND_RESPONSE_TIMEOUT	LITERAL1
+LTE_CONECT_SHILED_DEFAULT_BAUDRATE	LITERAL1
+MAX_URC_EVENT_LISTENERS	LITERAL1
+
+DEFAULT_AT_COMMAND_RESPONSE_OK	LITERAL1
+LTE_MODULE_SYSLOADING_MESSAGE	LITERAL1
+LTE_MODULE_SYSSTART_MESSAGE	LITERAL1
+
+LTE_CON_SHIELD_VERSION	LITERAL1
+
+SIM_PIN_READY	LITERAL1
+SIM_PIN_NEED	LITERAL1
+SIM_PIN2_NEED	LITERAL1
+SIM_PUK_NEED	LITERAL1
+SIM_PUK2_NEED	LITERAL1
+SIM_PIN_ERROR	LITERAL1
+
+NOT_REGISTERED	LITERAL1
+REGISTERED	LITERAL1
+SEARCHING	LITERAL1
+DENIED	LITERAL1
+UNKNOW	LITERAL1
+ROAMING	LITERAL1
+ERROR	LITERAL1
+
+LOG_LEVEL_CUST	LITERAL1
+LOG_LEVEL_HIGH	LITERAL1
+LOG_LEVEL_MED	LITERAL1
+LOG_LEVEL_LOW	LITERAL1
+LTE_CONNECT_SHIELD_DEBUG	LITERAL1
