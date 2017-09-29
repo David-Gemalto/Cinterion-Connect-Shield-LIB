@@ -1,11 +1,19 @@
 # Cinterion-Connect-Shield-LIB
-Cinterion Connect Shield Library for Arduino Uno 
+Cinterion Connect Shield Library for Arduino Uno
 
-Find the reference on https://developer.gemalto.com/documentation/cinterion%C2%AE-connect-shield-tools-documentation 
+This library simplifies the usage of LTE device available on Cinterion Connect Shield.
+
+Find the device reference on https://developer.gemalto.com/documentation/cinterion%C2%AE-connect-shield-tools-documentation
 
 Feel free to ask the community members all questions about the Cinterion Connect Shield
 
-== License ==
+## Examples
+
+This library contains a various of examples, please see [examples](https://github.com/David-Gemalto/Cinterion-Connect-Shield-LIB/tree/master/examples "Examples")
+
+Basic example how to use Cinterion Connect Shield an register to network is avilable here [AtCommandUsage.ino](https://github.com/David-Gemalto/Cinterion-Connect-Shield-LIB/blob/master/examples/AtCommandUsage/AtCommandUsage.ino "AtCommandUsage.ino") 
+
+## License
 Copyright (c) 2017 Gemalto M2M GmbH, a Gemalto Company
 
 This library is free software; you can redistribute it and/or
